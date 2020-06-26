@@ -1,0 +1,267 @@
+.LoanApplication {
+    
+    background-image: url(./images/dark.jpg);
+  color: black;
+    width: 100%;
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    position: fixed;
+  
+      /* background-color: lightblue; */
+      /* width: -webkit-fill-available;
+      height: -webkit-fill-available; */
+      overflow: scroll;
+
+    
+}
+.tab {
+  display: inline-block;
+  margin-left: 40px;
+}
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    min-height: 10vh;
+    background:rgb(1, 1, 20);
+    color: white;
+}
+.nav-links {
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 40%;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: right;
+  list-style: none;
+ 
+}
+.nav-links li{
+  font-size: 1.5rem;
+}
+.linkWelcome {
+  color: white;
+}
+.linkWelcome h1{
+  font-size: 4.0rem;
+}
+
+
+.App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+
+
+
+
+.container {
+    position: relative;
+    max-width: 800px; /* Maximum width */
+    margin: 0 auto; /* Center it */
+  }
+
+  .container .content {
+    position: absolute; /* Position the background text */
+    bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+    background: rgb(207, 18, 18); /* Fallback color */
+    background: rgba(189, 81, 81, 0.5); /* Black background with 0.5 opacity */
+    color: grey; /* Grey text */
+    width: 100%; /* Full width */
+    padding: 20px; /* Some padding */
+  }
+  /* .btn-success {
+    color: #fff;
+    background-color: black;
+    border-color: white;
+} */
+  .example2 {
+    text-align: center;
+    position: 'middle';
+    padding: 30px 155px;
+    border-radius: 10px;
+    width: 55%;
+    height: 90%;
+    border: rgb(56, 41, 41);
+    box-shadow: whitesmoke;
+    position: relative;
+    background-color: rgba(218, 222, 236, 0.479);
+    box-sizing: border-box;
+  }
+  .u{
+    color: black;
+  }
+  .example2 h2{
+    font-size: 2.5rem;
+    color: black;
+  }
+  .example2 h6{
+    font-size: 1.2rem;
+  }
+ 
+  /* .label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 700;
+    font-size: larger;
+} */
+  .alert-warning {
+    color: red;
+    background-color: unset;
+    border-color: unset;
+}
+
+.alert {
+    position: relative;
+    padding: 0.01rem 0.5rem;
+    margin-bottom: 0.5rem;
+    border: 0px solid transparent;
+    border-radius: 0.25rem;
+}
+  .loanform{
+    text-align: center;
+    position: 'middle';
+    padding: 30px 155px;
+    border-radius: 10px;
+    width: 55%;
+    color: black;
+    height: 120%;
+    border: rgb(56, 41, 41);
+    box-shadow: whitesmoke;
+    position: relative;
+    background-color: rgba(218, 222, 236, 0.479);
+    box-sizing: border-box;
+  }
+  .registerback h2{
+   
+      font-size: 2.5rem;
+
+  }
+  .form-row
+  {
+    margin-left: 80px;
+    margin-right: -455px;
+    color: black;
+  }
+  .example2 p{
+    font-size: 1.5rem;
+    line-height: 1.2;
+    color: black;
+  }
+  .loginUser{
+    text-align: center;
+    position: relative;
+    padding: 40px 130px;
+    border-radius: 10px;
+    width: 100%;
+    color: black;
+    height: 60%;
+    border: rgb(56, 41, 41);
+    box-shadow: whitesmoke;
+    background-color: rgba(218, 222, 236, 0.479);
+    box-sizing: border-box;
+    
+  }
+  .btn-lg {
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    border-radius: 0.9rem;
+}
+  .loginbut{
+    padding:60px;
+  }
+  .loginUser select{
+    padding: 5px 2px;
+  }
+  .loginUser p{
+    font-size: initial;
+    text-align: justify;
+  }
+  .btn-primary {
+    color: #fff;
+    background-color: black;
+    border-color: black;
+  }
+  .btn-link{
+    color: #fff;
+  }
+
+  .example1 {
+    text-align: center;
+    position: 'middle';
+    padding: 65px 155px;
+    color: black;
+    border-radius: 10px;
+    width: 55%;
+    height: 60%;
+    border: rgb(56, 41, 41);
+    box-shadow: whitesmoke;
+    background-color: rgba(218, 222, 236, 0.479);
+    box-sizing: border-box;
+  }
+  .example1 h1{
+    font-size: 2.5rem;
+  }
+  .example1 h6{
+    font-size: 1.2rem;
+  }
+  .registerback {
+    text-align: center;
+    position: 'middle';
+    width: 90%;
+    height: 83%;
+    color: black;
+    border: rgb(248, 162, 162);
+    padding: 10px;
+    box-shadow: whitesmoke;
+    background-color: rgb(207, 161, 161);
+    box-sizing: border-box;
+     
+    }
+  
+  .but {
+    background-color:rgb(43, 15, 15);
+    border: none;
+    color: white;
+    padding: 3px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  
+
+  .topnav {
+    background-color: rgb(43, 15, 15);
+    overflow: hidden;
+  }
+  .topnav p{
+    float: right;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  .home {
+    overflow: hidden;
+    
+  }
+
+  .home p{
+    float: right;
+    color:white;
+    text-align: center;
+    padding: 1px 5px;
+    text-decoration: none;
+    font-size: 15px;
+  }
